@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/********************animation********************/
+.anim {
+  opacity: 0;
+  -moz-transition: all 1.5s cubic-bezier(.175,.885,.32,1.275);
+  -webkit-transition: all 1.5s cubic-bezier(.175,.885,.32,1.275);
+  -o-transition: all 1.5s cubic-bezier(.175,.885,.32,1.275);
+  transition: all 1.5s cubic-bezier(.175,.885,.32,1.275);
+}
+/***************animation left*******************/
+.anim_left {
+  -moz-transform: translate3d(-100px, 0px, 0px);
+  -webkit-transform: translate3d(-100px, 0px, 0px);
+  -o-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate3d(-100px, 0px, 0px);
+}
+/***************animation right*******************/
+.anim_right {
+  -moz-transform: translate3d(100px, 0px, 0px);
+  -webkit-transform: translate3d(100px, 0px, 0px);
+  -o-transform: translate(100px, 0px);
+  -ms-transform: translate(100px, 0px);
+  transform: translate3d(100px, 0px, 0px);
+}
+/***************animation top*******************/
+.anim_top {
+  -moz-transform: translate3d(0px, -100px, 0px);
+  -webkit-transform: translate3d(0px, -100px, 0px);
+  -o-transform: translate(0px, -100px);
+  -ms-transform: translate(0px, -100px);
+  transform: translate3d(0px, -100px, 0px);
+}
+/***************animation bottom****************/
+.anim_bottom {
+  -moz-transform: translate3d(0px, 100px, 0px);
+  -webkit-transform: translate3d(0px, 100px, 0px);
+  -o-transform: translate(0px, 100px);
+  -ms-transform: translate(0px, 100px);
+  transform: translate3d(0px, 100px, 0px);
+}
+
+/****reset animation and move div to its static position****/
+.in_view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
