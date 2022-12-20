@@ -205,23 +205,23 @@ to {
     padding-top: 3%;
     z-index: 10;
 }
-#profile .profile-wrap .id button {
+#profile .profile-wrap .id .dropdown-menu {
     background: none;
 }
-#profile .profile-wrap .id button h1 {
+#profile .profile-wrap .id .dropdown-menu h1 {
     font-size: 2rem;
     display: inline-block;
 }
-#profile .profile-wrap .id button span {
+#profile .profile-wrap .id .dropdown-menu span {
     font-size: 1.5rem;
     padding-left: 15px;
 }
-#profile .profile-wrap .id button span .fa-chevron-down {
+#profile .profile-wrap .id .dropdown-menu span .fa-chevron-down {
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-#profile .profile-wrap .id button span .fa-chevron-down.active {
+#profile .profile-wrap .id .dropdown-menu span .fa-chevron-down.active {
     transform: rotate(180deg);
 }
 #profile .profile-wrap .id ul.dropdown {
@@ -332,23 +332,25 @@ to {
     width: calc(100% - 40px);
     margin: auto;
 }
-#profile .profile-wrap .button-area button {
+#profile .profile-wrap .button-area li {
     width: calc(50% - 10px);
     height: 50px;
     border-radius: 10px;
     font-size: 1.25rem;
+    background: #eee;
+    line-height: 50px;
+    text-align: center;
 }
-#profile .profile-wrap .button-area button:last-child:hover {
+#profile .profile-wrap .button-area li:last-child:hover {
     background: #333;
     color: #fff;
 }
-#profile .profile-wrap .button-area button a {
+#profile .profile-wrap .button-area li a {
     display: block;
-    line-height: 50px;
     width: 100%;
     height: 100%;
 }
-#profile .profile-wrap .button-area button span:last-child {
+#profile .profile-wrap .button-area li span:last-child {
     padding-left: 10px;
     font-size: 1rem;
 }
