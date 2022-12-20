@@ -19,14 +19,6 @@ function initSwiper() {
     }
 }
 
-initSwiper();
-
-$(window).on('resize', function () {
-    ww = $(window).width();
-    initSwiper();
-});
-
-
 // 풀페이지
 $(window).resize(function(){ 
 if (window.innerWidth > 1023) {  
