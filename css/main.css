@@ -507,11 +507,11 @@ to {
 #website .col-wrap .col-2 .site .list {
     display: flex;
 }
-#website .col-wrap .col-2 .site .desc .list ul li {
+#website .col-wrap .col-2 .site .desc .list li {
     font-size: .875rem;
     line-height: 1.8;
 }
-#website .col-wrap .col-2 .site .desc .list ul:last-child {
+#website .col-wrap .col-2 .site .desc .list > li:last-child {
     padding-left: 15px;
 }
 /*세번째*/
@@ -600,7 +600,7 @@ to {
     font-size: .875rem;
     padding-top: 10px;
 }
-#website .col-wrap .col-4 .site-area .site .desc .list ul:last-child {
+#website .col-wrap .col-4 .site-area .site .desc .list > li:last-child {
     padding-left: 15px;
 }
 #website .col-wrap .col-4 .site-area .site .desc .list ul li {
