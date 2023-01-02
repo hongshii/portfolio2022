@@ -20,15 +20,6 @@ function initSwiper() {
 }
 
 // 풀페이지
-$(window).resize(function(){ 
-if (window.innerWidth > 1023) {  
-    /* 스크립트내용*/ 
-    } else {
-    /* 스크립트내용*/ 
-    }
-    
-    }).resize(); 
-    
 //기본 이벤트 제거
 window.addEventListener("wheel", function(e){
 	e.preventDefault();
